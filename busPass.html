@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #main{
+            padding: 10px;
+            background-color: rgb(216, 216, 243);
+            margin-left:100px ;
+            margin-right: 100px;
+            border-radius: 20px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        }
+
+        #blue{
+            color: blue;
+        }
+        .important{
+            color: red;
+            font-weight: bold;
+        }
+        .fieldset{
+            font-size: large;
+            font-weight:bold;
+            font-family: sans-serif;
+
+            color: white;
+            border:1px solid rgb(194, 194, 229) ;
+            border-radius: 5px;
+            padding: 5px;
+
+            background-color:rgb(85, 88, 239);
+            
+        }
+       
+
+       label{
+        padding: 5px;
+        
+
+       }
+
+       .age{
+        width: 15px;
+       }
+
+       input{
+        margin-top: 5px;
+        margin-right: 1px;
+        margin-bottom: 5px;
+        height: 20px;
+       }
+       .main-fieldset{
+        width: 800px;
+        margin-bottom: 15px;
+       }
+
+       #refresh{
+        width: 100px;
+        height: 100px;
+       }
+       #capthcha{
+        width: 150px;
+        height: 70px;
+       }
+       #button{
+        width: 100px;
+        height: 25px;
+        color: white;
+        background-color: rgb(56, 56, 221);
+        border: blue;
+        padding: 5px;
+        
+       }
+       a{
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+       }
+
+      
+
+       
+
+
+    </style>
+</head>
+<body>
+
+
+    <center id="main">
+        <img src="https://tgsrtcpass.com/images/Tsrtc_new_logo.jpg" alt="">
+        <h2 id="blue">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+        <h2>GENERAL BUS PASS APPLICATION</h2>
+   
+    </center>
+    <br>
+
+    <center>
+        <form action="success.html">
+            <fieldset class="main-fieldset">
+                <legend class="fieldset"> Applicant Details</legend>
+               <div style="display:block;" class="inside-fieldset">
+                <label for=""> Name *</label>
+                <input type="text" required> &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for=""> Father's / Guardian's
+                Name  *</label>
+                <input type="text" name="" id="" required><br>
+                <label for="">Date of birth *</label>
+                <input type="date" name="" id="">
+
+
+                <label for="gender"> Gender *</label>
+              
+                <input type="radio" name="gender" id="gender" required>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" required>
+                <label for="gender">FeMale</label><br>
+
+
+                <label for="">Age As on :</label>
+                <input type="text" name="" id="" class="age" required>
+                <label for="">Years</label>
+                <input type="text" name="" id="" class="age" required>
+                <label for="">Months</label>
+                <input type="text" name="" id="" class="age" required>
+                <label for="">Days</label>
+
+                <label for=""> Aadhar No:</label>
+                <input type="text" name="" id="" required><br>
+
+                <label for="">WhatsApp No:</label>
+                <input type="tel" name="" id="" required>
+
+                <label for="">E-mail Id:</label>
+                <input type="email" name="" id="" required title="@ and .com mandatory"><br>
+
+                <label for="">Photo: </label>
+                <input type="file" name="" id="" >
+
+
+                
+               </div>
+            </fieldset>
+
+
+
+            <fieldset class="main-fieldset">
+                <legend class="fieldset">Residential Address Details </legend>
+               <div style="display:block;">
+
+                <label for="">Applicant's Address *</label>
+                <textarea name="" id="" required></textarea>
+                <p class="important">(Maximum characters: 20)
+                You have 
+                20
+                 characters left.</p>
+            <label for=""> District</label>
+            <select name="" id="" required> 
+                <option value="">Hyderabad</option>
+                <option value="">Karimnagar</option>
+                <option value="">Warangal</option>
+            </select>
+
+            <label for="">Mandal*</label>
+            <select name="" id="" required>
+                <option value="">Hyderabad</option>
+                <option value="">Karimnagar</option>
+                <option value="">Warangal</option>
+            </select><BR></BR>
+            <label for=""> Village*</label>
+            <select name="" id="" required>
+                <option value="">Hyderabad</option>
+            </select>
+
+            <label for="">Pincode*</label>
+            <input type="text" name="" id="" required>
+  
+               </div>
+            </fieldset>
+
+
+
+            <fieldset class="main-fieldset">
+                <legend class="fieldset">Pass Type Details </legend>
+               <div style="display:block;">
+
+                
+
+            <label for="">City*</label>
+            <select name="" id="" required>
+                <option value="">Hyderabad</option>
+                <option value="">Karimnagar</option>
+                <option value="">Warangal</option>
+            </select> <BR></BR>
+            <label for="">Pass Type*</label>
+            <select name="" id="" required>
+                <option value="">Greater pass</option>
+                <option value="">Monthly Pass</option>
+                <option value="">Odinary Pass</option>
+                <option value="">Metro Express</option>
+                <option value="">Metro Delux pass</option>
+            </select>
+            
+  
+               </div>
+            </fieldset>
+
+
+            <fieldset class="main-fieldset">
+                <legend class="fieldset">Mode of Payment & Pass Collection </legend>
+               <div style="display:block;">
+
+                
+
+            <label for="">Payment Mode*</label>
+            <select name="" id="" required>
+                <option value="" disabled>Select payment Mode</option>
+                <option value="">Pay cash</option>
+
+                
+            </select><br>
+            <br>
+            <label for="">Pass Delivery Mode*</label>
+            <select name="" id="" required>
+                <option value="">Select Pass Delivery Mode</option>
+                <option value="">At Counter</option>
+               
+            </select>
+            <br>
+            <br>
+            <label for="">Center at which
+            you want to Collect Pass *</label>
+            <select name="" id="">
+                <option value="">RTC - MEDCHEL</option>
+                <option value="">RTC- KPHB</option>
+                <option value="">RTC SHAPURNAGAR</option>
+                <option value="">RTC- SECUNDRABAD</option>
+                <option value="">RTC- JEDIMETLA</option>
+                <option value=""> RTC - CHARMINAR</option>
+                <option value="">RTC- UPPAL</option>
+                <option value="">RTC- KOTI</option>
+                <option value="">RTC- KUKATPALLY</option>
+                <option value="">RTC- GATKESAR</option>
+            </select>
+            
+  
+               </div>
+            </fieldset>
+
+
+            <div style="display: block;">
+                <img  id="capthcha" src="https://storage.googleapis.com/kagglesdsdata/datasets/38019/306654/samples/226md.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20250408%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250408T172201Z&X-Goog-Expires=345600&X-Goog-SignedHeaders=host&X-Goog-Signature=26c1dab10d7fb61c1cab7f93253ae15149801732df83bc042997e6d97b2472c1dd58e3f9c4cb511c44ab484e229ce43e8c147c26c86641896501b1afc18c01d7417b9527d37c4d002bab42436176f7a07a0c1ea4dd586aede94d2e32f2cdc00151854cd689411322442bc1d314a766c657bb480ce5f8b4fba927b572e010b7008995f223dd7a1d1b03a17cbe01e72b2a0586b07e24165f11dd277e2fce3ec24934d24a7fec9ebc0597584ed39774137df45b04b8a119757c0ffd5f348f485c83dd3817750c0ed566c630edbb70b9686b5dd577a2b8f3061c0df3d303291a3a470f50194933dba0d614b2f8ae37ff59d4cc4e955ad1ca566ef1fed5a3652b5428" alt="">
+                <img id="refresh" src="https://www.temenos.com/wp-content/uploads/2024/10/reCAPTCHA-logo@2x.jpg" alt="">
+            </div><br>
+            <input type="text" name="" id=""><br>
+
+            <!-- <button><a href="success.html">Submit</a></button> -->
+
+            <input  id="button" type="submit" name="" >
+
+
+
+        </form>
+       
+
+        
+    </center>
+    
+</body>
+</html>
